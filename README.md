@@ -65,30 +65,30 @@ O sistema possui uma opção para encerrar a sessão do usuário.
 
 ---
 
----
-
 ## 🗄️ Banco de Dados
 
-O projeto utiliza o banco de dados:
+## 🚀 Como utilizar o aplicativo
+
+1. 🖥️ Inicie o **XAMPP** e ative os serviços **Apache** e **MySQL**.
+2. 🗄️ Acesse o **phpMyAdmin** em `http://localhost/phpmyadmin/`.
+3. 🛠️ Crie o banco de dados **`pwii`** utilizado pelo aplicativo.
+4. 📋 Crie a tabela **`usuario`** dentro do banco de dados.
+5. 🧩 Configure as colunas da tabela **`usuario`** conforme o projeto.
+6. 🔗 Configure o PHP para realizar a **conexão com o banco `pwii`**.
+7. 🔐 Acesse o aplicativo e realize o **login** do usuário.
+8. 📝 Utilize o sistema para **cadastrar e consultar os usuários**.
+9. 💾 As informações são armazenadas na tabela **`usuario`** do banco `pwii`.
+10. 🚪 Utilize o **Logout** para encerrar a sessão com segurança.
+
+
+### 📋 Colunas da tabela
 
 ```text
-agenda6
-```
-
-A tabela utilizada para o cadastro de amigos é:
-
-```text
-amigo
-```
-
-Com os seguintes campos:
-
-```text
-idamigo
+id
 nome
-apelido
-email
+senha
 ```
+<img width="1148" height="834" alt="03" src="https://github.com/user-attachments/assets/33a34b41-07f5-454c-87e4-7e8ccb517c49" />
 
 ---
 
